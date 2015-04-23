@@ -1,294 +1,295 @@
 #Transformation Summary:
 
-1.Column names in x_train and x_test data sets were renamed to be more descriptive.
-2.Column name for y_train and y_test data sets were renamed to be more descriptive.
-3.Subject data set columns were renamed to be more descriptive.
-4. y_train, x_train and subject_train data sets were merged.
-5. y_test, x_test and subject_test data sets were merged.
+1.Column names in x_train and x_test data sets were renamed to be more descriptive. <br />
+2.Column name for y_train and y_test data sets were renamed to be more descriptive. <br />
+3.Subject data set columns were renamed to be more descriptive.<br />
+4. y_train, x_train and subject_train data sets were merged.<br />
+5. y_test, x_test and subject_test data sets were merged.<br />
 6. Subsets of data frames from step 4 and 5 were merged to include.
-	only variables which give mean and standard deviation values
+	only variables which give mean and standard deviation values<br />
 7.Activity columns column variables renamed to contain descriptive names 
-	instead of just numbers.
+	instead of just numbers.<br />
 8. New tidy data frame created which grouped the data frame from step
-	by Subject and Activity.
-
+	by Subject and Activity.<br />
+<br />
 
 #Test and Train Data Dictionary
 
-Activity
-	Activity subject was performing during data collection
-		1 WALKING
-		2 WALKING_UPSTAIRS
-		3 WALKING_DOWNSTAIRS
-		4 SITTING
-		5 STANDING
-		6 LAYING
+Activity <br />
+	<p>Activity subject was performing during data collection<br />
+		<p>1 WALKING<br />
+		2 WALKING_UPSTAIRS<br />
+		3 WALKING_DOWNSTAIRS<br />
+		4 SITTING<br />
+		5 STANDING<br />
+		6 LAYING<br /></p></p>
 	
-Subject
-	Each row identifies the subject who performed the activity for each window sample.
-		1
-		2
-		3
-		4
-		5
-		6
-		7
-		8
-		9
-		10
-		11
-		12
-		13
-		14
-		15
-		16
-		17
-		18
-		19
-		20
-		21
-		22
-		23
-		24
-		25
-		26
-		27
-		28
-		29
-		30
-tBodyAcc-mean()-X
+Subject<br />
+	<p>Each row identifies the subject who performed the activity for each window sample.<br />
+		1<br />
+		2<br />
+		3<br />
+		4<br />
+		5<br />
+		6<br />
+		7<br />
+		8<br />
+		9<br />
+		10<br />
+		11<br />
+		12<br />
+		13<br />
+		14<br />
+		15<br />
+		16<br />
+		17<br />
+		18<br />
+		19<br />
+		20<br />
+		21<br />
+		22<br />
+		23<br />
+		24<br />
+		25<br />
+		26<br />
+		27<br />
+		28<br />
+		29<br />
+		30<br /></p>
+		
+tBodyAcc-mean()-X:
 	Mean of Body Acceleration Signal (X Direction) (Unit of Time)
 	
-tBodyAcc-mean()-Y
+tBodyAcc-mean()-Y:
 	Mean of Body Acceleration Signal (Y Direction) (Unit of Time)
 	
-tBodyAcc-mean()-Z
+tBodyAcc-mean()-Z:
 	Mean of Body Acceleration Signal (Z Direction) (Unit of Time)
 	
-tBodyAcc-std()-X
+tBodyAcc-std()-X:
 	Standard Deviation of Body Acceleration Signal (X Direction) (Unit of Time)
 	
-tBodyAcc-std()-Y
+tBodyAcc-std()-Y:
 	Standard Deviation of Body Acceleration Signal (Y Direction) (Unit of Time)
 	
-tBodyAcc-std()-Z
+tBodyAcc-std()-Z:
 	Standard Deviation of Body Acceleration Signal (Z Direction) (Unit of Time)
 	
-tGravityAcc-mean()-X
+tGravityAcc-mean()-X:
 	Mean of Gravity Acceleration Signal (X Direction) (Unit of Time)
 	
-tGravityAcc-mean()-Y
+tGravityAcc-mean()-Y:
 	Mean of Gravity Acceleration Signal (Y Direction) (Unit of Time)
 	
-tGravityAcc-mean()-Z
+tGravityAcc-mean()-Z:
 	Mean of Gravity Acceleration Signal (Z Direction) (Unit of Time)
 	
-tGravityAcc-std()-X
+tGravityAcc-std()-X:
 	Standard Deviation of Gravity Acceleration Signal (X Direction) (Unit of Time)
 	
-tGravityAcc-std()-Y
+tGravityAcc-std()-Y:
 	Standard Deviation of Gravity Acceleration Signal (Y Direction) (Unit of Time)
 	
-tGravityAcc-std()-Z
+tGravityAcc-std()-Z:
 	Standard Deviation of Gravity Acceleration Signal (Z Direction) (Unit of Time)
 	
-tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-X:
 	Mean of Body Acceleration Jerk Signal (X Direction) (Unit of Time)
 	
-tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Y:
 	Mean of Body Acceleration Jerk Signal (Y Direction) (Unit of Time)
 	
-tBodyAccJerk-mean()-Z
+tBodyAccJerk-mean()-Z:
 	Mean of Body Acceleration Jerk Signal (Z Direction) (Unit of Time)
 	
-tBodyAccJerk-std()-X
+tBodyAccJerk-std()-X:
 	Standard Deviation of Body Acceleration Jerk Signal (X Direction) (Unit of Time)
 	
-tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Y:
 	Standard Deviation of Body Acceleration Jerk Signal (Y Direction) (Unit of Time)
 	
-tBodyAccJerk-std()-Z
+tBodyAccJerk-std()-Z:
 	Standard Deviation of Body Acceleration Jerk Signal (Z Direction) (Unit of Time)
 	
-tBodyGyro-mean()-X
+tBodyGyro-mean()-X:
 	Mean of Body Gyro Signal (X Direction) (Unit of Time)
 	
-tBodyGyro-mean()-Y
+tBodyGyro-mean()-Y:
 	Mean of Body Gyro Signal (Y Direction) (Unit of Time)
 	
-tBodyGyro-mean()-Z
+tBodyGyro-mean()-Z:
 	Mean of Body Gyro Signal (Z Direction) (Unit of Time)
 	
-tBodyGyro-std()-X
+tBodyGyro-std()-X:
 	Standard Deviation of Body Gyro Signal (X Direction) (Unit of Time)
 	
-tBodyGyro-std()-Y
+tBodyGyro-std()-Y:
 	Standard Deviation of Body Gyro Signal (Y Direction) (Unit of Time)
 	
-tBodyGyro-std()-Z
+tBodyGyro-std()-Z:
 	Standard Deviation of Body Gyro Signal (Z Direction) (Unit of Time)
 	
-tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-X:
 	Mean of Body Gyro Jerk Signal (X Direction) (Unit of Time)
 	
-tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Y:
 	Mean of Body Gyro Jerk Signal (Y Direction) (Unit of Time)
 	
-tBodyGyroJerk-mean()-Z
+tBodyGyroJerk-mean()-Z:
 	Mean of Body Gyro Jerk Signal (Z Direction) (Unit of Time)
 	
-tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-X:
 	Standard Deviation of Body Gyro Jerk Signal (X Direction) (Unit of Time)
 	
-tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Y:
 	Standard Deviation of Body Gyro Jerk Signal (Y Direction) (Unit of Time)
 	
-tBodyGyroJerk-std()-Z
+tBodyGyroJerk-std()-Z:
 	Standard Deviation of Body Gyro Jerk Signal (Z Direction) (Unit of Time)
 	
-tBodyAccMag-mean()
+tBodyAccMag-mean():
 	Mean of Magnitude of Body Acceleration Signal (Unit of Time)
 	
-tBodyAccMag-std()
+tBodyAccMag-std():
 	Standard Deviation of Magnitude of Body Acceleration Signal (Unit of Time)
 	
-tGravityAccMag-mean()
+tGravityAccMag-mean():
 	Mean of Magnitude of Gravity Acceleration Signal (Unit of Time)
 	
-tGravityAccMag-std()
+tGravityAccMag-std():
 	Standard Deviation of Magnitude of Gravity Acceleration Signal (Unit of Time)
 	
-tBodyAccJerkMag-mean()
+tBodyAccJerkMag-mean():
 	Mean of Magnitude of Body Acceleration Jerk Signal (Unit of Time)
 	
-tBodyAccJerkMag-std()
+tBodyAccJerkMag-std():
 	Standard Deviation of Magnitude of Body Acceleration Jerk Signal (Unit of Time)
 	
-tBodyGyroMag-mean()
+tBodyGyroMag-mean():
 	Mean of Magnitude of Body Gyro Signal (Unit of Time)
 	
-tBodyGyroMag-std()
+tBodyGyroMag-std():
 	Standard Deviation of Magnitude of Body Gyro Signal (Unit of Time)
 	
-tBodyGyroJerkMag-mean()
+tBodyGyroJerkMag-mean():
 	Mean of Magnitude of Body Gyro Jerk Signal (Unit of Time)
 	
-tBodyGyroJerkMag-std()
+tBodyGyroJerkMag-std():
 	Standard Deviation of Magnitude of Body Gyro Jerk Signal (Unit of Time)
 	
-fBodyAcc-mean()-X
+fBodyAcc-mean()-X:
 	Mean of Body Acceleration Signal (X Direction) (Unit of Frequency)
 	
-fBodyAcc-mean()-Y
+fBodyAcc-mean()-Y:
 	Mean of Body Acceleration Signal (Y Direction) (Unit of Frequency)
 	
-fBodyAcc-mean()-Z
+fBodyAcc-mean()-Z:
 	Mean of Body Acceleration Signal (Z Direction) (Unit of Frequency)
 	
-fBodyAcc-std()-X
+fBodyAcc-std()-X:
 	Standard Deviation of Body Acceleration Signal (X Direction) (Unit of Frequency)
 	
-fBodyAcc-std()-Y
+fBodyAcc-std()-Y:
 	Standard Deviation of Body Acceleration Signal (Y Direction) (Unit of Frequency)
 	
-fBodyAcc-std()-Z
+fBodyAcc-std()-Z:
 	Standard Deviation of Body Acceleration Signal (Z Direction) (Unit of Frequency)
 	
-fBodyAcc-meanFreq()-X
+fBodyAcc-meanFreq()-X:
 	Weighted Average of Gravity Acceleration Signal (X Direction) (Unit of Frequency)
 	
-fBodyAcc-meanFreq()-Y
+fBodyAcc-meanFreq()-Y:
 	Weighted Average of Gravity Acceleration Signal (Y Direction) (Unit of Frequency)
 	
-fBodyAcc-meanFreq()-Z
+fBodyAcc-meanFreq()-Z:
 	Weighted Average of Gravity Acceleration Signal (Z Direction) (Unit of Frequency)
 	
-fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-X:
 	Mean of Body Acceleration Jerk Signal (X Direction) (Unit of Frequency)
 	
-fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Y:
 	Mean of Body Acceleration Jerk Signal (Y Direction) (Unit of Frequency)
 	
-fBodyAccJerk-mean()-Z
+fBodyAccJerk-mean()-Z:
 	Mean of Body Acceleration Jerk Signal (Z Direction) (Unit of Frequency)
 	
-fBodyAccJerk-std()-X
+fBodyAccJerk-std()-X:
 	Standard Deviation of Body Acceleration Jerk Signal (X Direction) (Unit of Frequency)
 	
-fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Y:
 	Standard Deviation of Body Acceleration Jerk Signal (Y Direction) (Unit of Frequency)
 	
-fBodyAccJerk-std()-Z
+fBodyAccJerk-std()-Z:
 	Standard Deviation of Body Acceleration Jerk Signal (Z Direction) (Unit of Frequency)
 	
-fBodyAccJerk-meanFreq()-X
+fBodyAccJerk-meanFreq()-X:
 	Weighted Average of Body Acceleration Jerk Signal (X Direction) (Unit of Frequency)
 	
-fBodyAccJerk-meanFreq()-Y
+fBodyAccJerk-meanFreq()-Y:
 	Weighted Average of Body Acceleration Jerk Signal (Y Direction) (Unit of Frequency)
 	
-fBodyAccJerk-meanFreq()-Z
+fBodyAccJerk-meanFreq()-Z:
 	Weighted Average of Body Acceleration Jerk Signal (Z Direction) (Unit of Frequency)
 	
-fBodyGyro-mean()-X
+fBodyGyro-mean()-X:
 	Mean of Body Gyro Signal (X Direction) (Unit of Frequency)
 	
-fBodyGyro-mean()-Y
+fBodyGyro-mean()-Y:
 	Mean of Body Gyro Signal (Y Direction) (Unit of Frequency)
 	
-fBodyGyro-mean()-Z
+fBodyGyro-mean()-Z:
 	Mean of Body Gyro Signal (Z Direction) (Unit of Frequency)
 	
-fBodyGyro-std()-X
+fBodyGyro-std()-X:
 	Standard Deviation of Body Gyro Signal (X Direction) (Unit of Frequency)
 	
-fBodyGyro-std()-Y
+fBodyGyro-std()-Y:
 	Standard Deviation of Body Gyro Signal (Y Direction) (Unit of Frequency)
 	
-fBodyGyro-std()-Z
+fBodyGyro-std()-Z:
 	Standard Deviation of Body Gyro Signal (Z Direction) (Unit of Frequency)
 	
-fBodyGyro-meanFreq()-X
+fBodyGyro-meanFreq()-X:
 	Weighted Average of Body Gyro Signal (X Direction) (Unit of Frequency)
 	
-fBodyGyro-meanFreq()-Y
+fBodyGyro-meanFreq()-Y:
 	Weighted Average of Body Gyro Signal (Y Direction) (Unit of Frequency)
 	
-fBodyGyro-meanFreq()-Z
+fBodyGyro-meanFreq()-Z:
 	Weighted Average of Body Gyro Signal (Z Direction) (Unit of Frequency)
 	
-fBodyAccMag-mean()
+fBodyAccMag-mean():
 	Mean of Magnitude of Body Acceleration Signal (Unit of Frequency)
 	
-fBodyAccMag-std()
+fBodyAccMag-std():
 	Standard Deviation of Magnitude of Body Acceleration Signal (Unit of Frequency)
 	
-fBodyAccMag-meanFreq()
+fBodyAccMag-meanFreq():
 	Weighted Average of Magnitude of Body Acceleration Signal (Unit of Frequency)
 	
-fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-mean():
 	Mean of Magnitude of Body Acceleration Jerk Signal (Unit of Frequency)
 	
-fBodyBodyAccJerkMag-std()
+fBodyBodyAccJerkMag-std():
 	Standard Deviation of Magnitude of Body Acceleration Jerk Signal (Unit of Frequency)
 	
-fBodyBodyAccJerkMag-meanFreq()
+fBodyBodyAccJerkMag-meanFreq():
 	Weighted Average of Magnitude of Body Acceleration Jerk Signal (Unit of Frequency)
 	
-fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-mean():
 	Mean of Magnitude of Body Gyro Signal (Unit of Frequency)
 	
-fBodyBodyGyroMag-std()
+fBodyBodyGyroMag-std():
 	Standard Deviation of Magnitude of Body Gyro Signal (Unit of Frequency)
 	
-fBodyBodyGyroMag-meanFreq()
+fBodyBodyGyroMag-meanFreq():
 	Weighted Average of Magnitude of Body Gyro Signal (Unit of Frequency)
 	
-fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-mean():
 	Mean of Magnitude of Body Gyro Jerk Signal (Unit of Frequency)
 		
-fBodyBodyGyroJerkMag-std()
+fBodyBodyGyroJerkMag-std():
 	Standard Deviation of Magnitude of Body Gyro Jerk Signal (Unit of Frequency)
 	
-fBodyBodyGyroJerkMag-meanFreq()
+fBodyBodyGyroJerkMag-meanFreq():
 	Weighted Average of Magnitude of Body Gyro Jerk Signal (Unit of Frequency)
